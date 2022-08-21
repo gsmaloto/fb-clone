@@ -1,0 +1,21 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #E7E9ED;
+  border-radius: 10px;
+  
+}
+.sidebarRow:first-child img {
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    object-fit: cover;
+}
+.sidebarRow:hover {
+    background-color: #303031;
+}
+.sidebarRow__icon {
+    width: 36px;
+    margin: 0 10px;
+}

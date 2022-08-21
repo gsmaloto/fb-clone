@@ -1,0 +1,4 @@
+.wall {
+    flex: .50;
+    min-height: 100vh;
+}

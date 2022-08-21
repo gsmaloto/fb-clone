@@ -1,0 +1,36 @@
+.addPost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242526;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.addPost__avatar > * {
+    margin: 0 10px;
+}
+.addPost form {
+    flex: 1;
+    display: flex;
+}
+.addPost__input {
+    flex: 1;
+    background-color: #373738;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+.addPost__button {
+    background-color: #2374E1;
+    color: white;
+    padding: 0 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+}
